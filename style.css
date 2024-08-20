@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+body{
+    background-color: black;
+}
+.main {
+background-image: url(Assests/Images/bg-img.jpg);
+background-repeat: no-repeat;
+height: 90vh;
+max-width: 100%;
+background-position: center center;
+background-size: max(1500px,100vw);
+}
+.main .box{
+background-color: black;
+height: 90vh;
+width: 100vw;
+opacity: 0.6;
+position: absolute;
+top: 0%;
+}
+
+ nav{
+   
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ nav img{
+    color: red ;
+    padding-top: 20px;
+position: relative;
+z-index: 10;
+}
+nav button{
+   color: white;
+   background-color: red;
+   border: none;
+   border-radius: 4px;
+    position: relative;
+z-index:5 ;
+padding: 7px 8px;
+font-weight: bold;
+
+}
+
+.hero{
+    padding-top: 127px;
+    padding-bottom: 3px;
+    height: 30%;
+    width: 100vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 18px;
+}
+ .hero :first-child{
+    font-family: poppins;
+    font-weight: 800;
+ font-size: 49px;
+}
+.hero :nth-child(2){
+    font-size: 20px;
+}
+.hero :nth-child(3){
+    font-size: 20px;
+   
+}
+
+.email{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+z-index: 10;
+gap: 5px;
+}
+.email input {
+    background: rgba(22, 22, 22, 0.7);
+    border-color: rgba(128, 128, 128, 0.7);
+    border-radius: 0.25rem;
+    border-width: 0.0625rem;
+padding: 15px 4px;
+padding-left: 9px;
+font-size: 24px;
+color: white;
+}
+.email ::placeholder{
+color: rgba(255, 255, 255, 0.7);
+font-size: 20px;
+padding-left: 0px;
+
+}
+
+.email button{
+background-color: red;
+color: white;
+border: none;
+border-radius: 4px;
+padding: 15px 25px;
+font-size: 24px;
+font-weight: 500;
+}
+.email button span{
+       font-weight: 500;
+padding-left: 5px;
+}
+.seperation{
+    background-color: rgb(59, 43, 43);
+    height: 1.1vh;
+    width: 100vw;
+}
+
+.block1{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ max-width: 70vw;
+ margin: auto;
+ color: white;
+}
+.secimage{
+    position: relative;
+}
+.secimage img{
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+}
+.secimage video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+left: 25px;
+}
+.block1 div :first-child{
+   display: flex;
+   flex-direction: column;
+    font-weight: bolder;
+    font-size: 34px;
+}
+.block1 div :nth-child(2){
+
+    font-weight: bold;
+    font-size: 20px;
+}
